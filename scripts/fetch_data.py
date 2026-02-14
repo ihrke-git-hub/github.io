@@ -13,7 +13,7 @@ import pandas as pd
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 CSV_PATH = BASE_DIR / "data" / "nikkei225.csv"
-OUTPUT_PATH = BASE_DIR / "index.html"
+OUTPUT_PATH = BASE_DIR / "heatmap" / "index.html"
 
 
 def load_stock_list():
